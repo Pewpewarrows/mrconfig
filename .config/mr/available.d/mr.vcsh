@@ -1,2 +1,2 @@
-[$HOME/${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/mr.git]
+[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/mr.git]
 checkout = vcsh clone https://github.com/Pewpewarrows/mrconfig.git mr
