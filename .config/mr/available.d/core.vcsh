@@ -1,0 +1,2 @@
+[$HOME/${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/core.git]
+checkout = vcsh clone https://github.com/Pewpewarrows/dotfiles.git core
