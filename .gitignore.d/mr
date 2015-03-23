@@ -1,0 +1,29 @@
+# For data as sensitive as the user's $HOME, treating gitignore as a whitelist
+# instead of a blacklist seems like the superior option.
+
+# (Pattern for partial directory inclusion):
+# !/.dirname
+# /.dirname/*
+# !/.dirname/filename
+
+/*
+
+!/.gitignore.d
+/.gitignore.d/*
+!/.gitignore.d/mr
+
+!/.config
+/.config/*
+!/.config/mr
+/.config/mr/*
+!/.config/mr/available.d
+/.config/mr/available.d/*
+!/.config/mr/available.d/core.vcsh
+!/.config/mr/available.d/mr.vcsh
+!/.config/mr/available.d/tpm.vcsh
+!/.config/mr/config.d
+/.config/mr/config.d/*
+!/.config/mr/config.d/core.vcsh
+!/.config/mr/config.d/mr.vcsh
+!/.config/mr/config.d/tpm.vcsh
+!/.mrconfig
