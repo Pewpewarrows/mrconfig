@@ -1,2 +1,5 @@
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/tpm.git]
 checkout = mkdir -p ~/.tmux/plugins; VCSH_BASE=~/.tmux/plugins/tpm vcsh clone https://github.com/tmux-plugins/tpm tpm
+commit = echo "No write access to this repository"
+record = echo "No write access to this repository"
+push = echo "No write access to this repository"
