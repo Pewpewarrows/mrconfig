@@ -22,10 +22,12 @@
 /.config/mr/available.d/*
 !/.config/mr/available.d/core.vcsh
 !/.config/mr/available.d/mr.vcsh
+!/.config/mr/available.d/spacemacs.vcsh
 !/.config/mr/available.d/tpm.vcsh
 !/.config/mr/config.d
 /.config/mr/config.d/*
 !/.config/mr/config.d/core.vcsh
 !/.config/mr/config.d/mr.vcsh
+!/.config/mr/config.d/spacemacs.vcsh
 !/.config/mr/config.d/tpm.vcsh
 !/.mrconfig
