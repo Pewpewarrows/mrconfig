@@ -1,5 +1,0 @@
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/spacemacs.git]
-checkout = VCSH_BASE=~/.emacs.d vcsh clone https://github.com/syl20bnr/spacemacs spacemacs
-commit = echo "No write access to this repository"
-record = echo "No write access to this repository"
-push = echo "No write access to this repository"
