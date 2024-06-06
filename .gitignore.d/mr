@@ -20,12 +20,14 @@
 /.config/mr/*
 !/.config/mr/available.d
 /.config/mr/available.d/*
+!/.config/mr/available.d/asdf.vcsh
 !/.config/mr/available.d/core.vcsh
 !/.config/mr/available.d/doom-emacs.vcsh
 !/.config/mr/available.d/mr.vcsh
 !/.config/mr/available.d/tpm.vcsh
 !/.config/mr/config.d
 /.config/mr/config.d/*
+!/.config/mr/config.d/asdf.vcsh
 !/.config/mr/config.d/core.vcsh
 !/.config/mr/config.d/doom-emacs.vcsh
 !/.config/mr/config.d/mr.vcsh

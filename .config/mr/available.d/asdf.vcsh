@@ -1,0 +1,6 @@
+[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/asdf.git]
+# TODO: should be using a release tag (such as tags/v0.14.0) but vcsh clone command doesn't handle the ref correctly
+checkout = VCSH_BASE=~/.asdf vcsh clone https://github.com/asdf-vm/asdf.git asdf
+commit = echo "No write access to this repository"
+record = echo "No write access to this repository"
+push = echo "No write access to this repository"
